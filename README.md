@@ -13,6 +13,13 @@ For example, searching for a verb will also yield sentences containing a conjuga
 This program depends on [mecab](http://taku910.github.io/mecab/) for the aforementioned
 morphological splitting. For instructions on installing it, see the [mecab crate](https://github.com/tsurai/mecab-rs).
 
+You can use the following packages if you use `apt`
+
+```
+sudo apt install libsqlite3-dev
+sudo apt install libmecab-dev
+```
+
 ## Usage
 
 ```
